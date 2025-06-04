@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
 			printf("Erreur de parametres");
 		}
 	}
-else if (argc == 3 && strcmp(argv[1], "car") == 0)
+	else if (argc == 3 && strcmp(argv[1], "car") == 0)
 	{
 		int a = atoi(argv[2]);
 		int r = _car(a);
